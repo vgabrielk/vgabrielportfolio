@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.home {
+    height: 100vh;
+    margin-top: 8rem;
+    gap: 20px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+    .texts {
+        text-align: center;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h1 {
+            background-image: linear-gradient(to right, #FFCC00, #FF6B00);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: black;
+            font-family: 'Archivo Black', sans-serif;
+            font-weight: 100;
+        }
+
+        p {
+            color: #FFFFFF;
+            width: 45%;
+            margin: 0 auto;
+        }
+        @media (max-width: 960px) {
+            p{
+                width: 65%;
+            }
+        }
+        @media (max-width: 700px) {
+            p{
+                width: 100%;
+            }
+        }
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, #FFCC00, #FF6B00);
+        border: none;
+        height: 38px;
+        width: auto;
+        padding: 1rem;
+        border-radius: 7px;
+        cursor: pointer;
+
+        p {
+            font-weight: 600;
+            font-size: .8rem;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            margin-right: 4px;
+        }
+
+        img {
+            animation: animate 1s infinite alternate;
+        }
+
+       
+
+        @keyframes animate {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(10px);
+            }
+        }
+        
+    }
+}
+
+.light-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 50%;
+    @media(max-width: 700px){
+        width: 100%;
+    }
+}
