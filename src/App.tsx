@@ -1,14 +1,19 @@
-import './App.css'
+import { Fragment, useEffect } from 'react';
 import client from './services/contentful';
+import Homepage from './pages/Homepage';
 
 function App() {
   
-  client.getEntries().then(function (entries) {
-    console.log(entries);
-  });
+  useEffect(() => {
+      client.getEntries({
+        content_type: "projects"
+      })
+      .then((res : any) => console.log(res));
+    },[])
   return (
-    <>
-    </>
+    <Fragment>
+      <Homepage />
+    </Fragment>
   )
 }
 
