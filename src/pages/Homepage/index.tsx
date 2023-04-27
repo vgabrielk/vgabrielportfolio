@@ -1,6 +1,5 @@
 import './index.scss'
 
-
 const Homepage = () => {
   return (
     <main className='home'>
@@ -13,9 +12,9 @@ const Homepage = () => {
         </span>
         <button className="button">
             <p>Meu contato</p>
-            <img src="../../../public/assets/svg/arrow.svg" alt="" />
+            <img src="../../../assets/svg/arrow.svg" alt="" />
         </button>
-        <img src="../../../public/assets/svg/yellow-blur.svg" alt="" className="light-blur" />
+        <img src="../../../assets/svg/yellow-blur.svg" alt="" className="light-blur" />
     </main>
   )
 }
