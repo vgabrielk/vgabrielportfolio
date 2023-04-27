@@ -25,6 +25,9 @@
   position: relative;
   cursor: all-scroll;
   transform: scale(.9);
+  @media (max-width: 700px) {
+    width: auto;
+  }
 }
 .projects .background img {
   height: 100%;
@@ -45,6 +48,11 @@
   transform: translate(-50%, -50%);
   filter: blur(4px);
   z-index: -1;
+  @media(max-width: 700px) {
+    object-fit: cover;
+  height: 70%;
+  width: 90%;
+  }
 }
 .background-opacity{
   position: absolute;
