@@ -58,7 +58,7 @@ const Projects = () => {
                 </Slider>
                 <Fragment>
                     <ButtonBack style={modalDetails ? { opacity: 0 } : { opacity: 1 }}>
-                        <img className="arrow arrow-left" src="//assets/svg/arrow.svg" alt="" />
+                        <img className="arrow arrow-left" src="/assets/svg/arrow.svg" alt="" />
                     </ButtonBack>
                     <ButtonNext style={modalDetails ? { opacity: 0 } : { opacity: 1 }}>
                         <img className="arrow" src="/assets/svg/arrow.svg" alt="" />
