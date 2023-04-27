@@ -9,7 +9,7 @@ const ProjectDetails = (props: ProjectProps) => {
   console.log(props.itemData)
   return (
     <div className={props.opened ? 'details active' : 'details'}>
-        <img src="/public/assets/svg/yellow-blur.svg" alt="" className="light-details" />
+        <img src="../../../public/assets/svg/yellow-blur.svg" alt="" className="light-details" />
       <h2>{props.itemData.fields?.title}</h2>
       <div className='details-image'>
         <img src={props.itemData.fields?.capaProjeto?.fields?.file?.url} alt="" />
@@ -20,7 +20,7 @@ const ProjectDetails = (props: ProjectProps) => {
         </div>
       </div>
       <div onClick={props.toogleModal} className="close-details">
-        <img src="src/assets/svg/arrow.svg" alt="" />
+        <img src="../../../public/assets/svg/arrow.svg" alt="" />
       </div>
     </div>
   )
