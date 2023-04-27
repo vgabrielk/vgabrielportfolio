@@ -1,18 +1,13 @@
-import { Fragment, useEffect } from 'react';
-import client from './services/contentful';
+import { Fragment} from 'react';
 import Homepage from './pages/Homepage';
+import Projects from './pages/Sections/Projects';
 
 function App() {
-  
-  useEffect(() => {
-      client.getEntries({
-        content_type: "projects"
-      })
-      .then((res : any) => console.log(res));
-    },[])
+
   return (
     <Fragment>
       <Homepage />
+      <Projects />
     </Fragment>
   )
 }
