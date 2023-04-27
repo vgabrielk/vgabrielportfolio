@@ -1,9 +1,14 @@
 import './index.scss'
 
-const Divider = () => {
+type Props = {
+    divider?: boolean
+}
+const Divider = (props : Props) => {
     return (
         <div className="divider">
-            <img src="../../..//assets/svg/divider.svg" alt="" />
+            {props.divider && (
+            <img src="../../../assets/svg/divider.svg" alt="" />
+            )}
         </div>
     )
 }

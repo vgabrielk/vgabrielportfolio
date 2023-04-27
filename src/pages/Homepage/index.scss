@@ -16,16 +16,6 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        h1 {
-            background-image: linear-gradient(to right, #FFCC00, #FF6B00);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            color: black;
-            font-family: 'Archivo Black', sans-serif;
-            font-weight: 100;
-        }
-
         p {
             color: #FFFFFF;
             width: 45%;
