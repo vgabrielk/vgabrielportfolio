@@ -49,7 +49,7 @@ const Projects = () => {
                         <Fragment key={item.fields.title}>
                             <Slide onClick={() => toogleModal(item)} key={index} index={index + 1}>
                                 <div className="background">
-                                    <img src="/src/assets/img/tela.png" alt="" />
+                                    <img src="/public/assets/img/tela.png" alt="" />
                                     <img className="img-project" src={item?.fields?.capaProjeto?.fields?.file?.url} alt="" />
                                 </div>
                             </Slide>
@@ -58,10 +58,10 @@ const Projects = () => {
                 </Slider>
                 <Fragment>
                     <ButtonBack style={modalDetails ? { opacity: 0 } : { opacity: 1 }}>
-                        <img className="arrow arrow-left" src="/src/assets/svg/arrow.svg" alt="" />
+                        <img className="arrow arrow-left" src="/public/assets/svg/arrow.svg" alt="" />
                     </ButtonBack>
                     <ButtonNext style={modalDetails ? { opacity: 0 } : { opacity: 1 }}>
-                        <img className="arrow" src="/src/assets/svg/arrow.svg" alt="" />
+                        <img className="arrow" src="/public/assets/svg/arrow.svg" alt="" />
                     </ButtonNext>
                 </Fragment>
             </CarouselProvider>
