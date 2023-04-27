@@ -45,7 +45,7 @@ const Projects = () => {
                 lockOnWindowScroll
             >
                 <Slider>
-                    {data.length && data.map((item: any, index) => (
+                    {data && data.map((item: any, index) => (
                         <Fragment key={item.fields.title}>
                             <Slide onClick={() => toogleModal(item)} key={index} index={index + 1}>
                                 <div className="background">

@@ -1,0 +1,13 @@
+.divider {
+    display: flex;
+    justify-content: center;
+    box-sizing: initial!important;
+    margin: 8rem 0;
+    @media (max-width: 600px) {
+        img {
+          margin: 4rem 0;
+          height: 10vh;
+      }
+      margin: 1rem 0;
+    }
+  }

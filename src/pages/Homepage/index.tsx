@@ -1,3 +1,4 @@
+import Divider from '../../components/Divider'
 import './index.scss'
 
 const Homepage = () => {
