@@ -10,7 +10,7 @@ const Homepage = () => {
             <p>Se você precisa de um site de alta performance para aumentar suas vendas, você veio ao lugar certo.</p>
         </span>
         <button className="button">
-            <p>Meu contato</p>
+            <p>contato</p>
             <img src="/assets/svg/arrow.svg" alt="" />
         </button>
         <img src="/assets/svg/yellow-blur.svg" alt="" className="light-blur" />
