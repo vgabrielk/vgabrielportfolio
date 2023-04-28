@@ -13,6 +13,7 @@ function App() {
       <Projects />
       <Divider />
       <Services />
+      <Divider divider />
     </Fragment>
   )
 }
