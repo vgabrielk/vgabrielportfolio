@@ -3,17 +3,19 @@ import Homepage from './pages/Homepage';
 import Projects from './pages/Sections/Projects';
 import Divider from './components/Divider';
 import Services from './pages/Sections/Services';
+import Footer from './components/Footer';
 
 function App() {
 
   return (
     <Fragment>
       <Homepage />
-      <Divider divider/>
+      <Divider divider />
+      <Services />
+      <Divider />
       <Projects />
       <Divider />
-      <Services />
-      <Divider divider />
+      <Footer/>
     </Fragment>
   )
 }

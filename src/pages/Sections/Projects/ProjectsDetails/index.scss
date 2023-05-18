@@ -71,24 +71,13 @@
     bottom: 1rem;
     transform: translateX(-50%);
     left: 50%;
-
     img {
         width: 50px;
-        animation: animate .5s infinite alternate;
-        transform: rotate(90deg);
+        transform: rotate(90deg)!important;
         filter: invert(100%);
         cursor: pointer;
     }
 
-    @keyframes animate {
-        from {
-            scale: 1.1;
-        }
-
-        to {
-            scale: 1.4;
-        }
-    }
 }
 
 .light-details {

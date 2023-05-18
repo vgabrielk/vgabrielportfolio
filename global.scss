@@ -14,7 +14,9 @@ body {
         padding: 0 2rem;
     }
 }
-
+a {
+    text-decoration: none!important;
+}
 h1 {
     background-image: linear-gradient(to right, #FFCC00 30%, #FF6B00 70%);
     background-clip: text;
@@ -24,5 +26,5 @@ h1 {
     font-family: 'Archivo Black', sans-serif;
     font-weight: 100;
     text-align: center;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
