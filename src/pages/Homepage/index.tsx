@@ -8,7 +8,7 @@ const Homepage = () => {
         </div>
         <span className='texts'>
             <h1>Vitor Felix</h1>
-            <p>Desenvolvedor frontend em busca de novas oportunidades no mercado de trabalho .</p>
+            <p>Desenvolvedor frontend em busca de novas oportunidades.</p>
         </span>
         <a href="https://linktr.ee/vgabriel7k" target='_blank'>
         <button className="button">
